@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questionnaire Form</title>
+  <link rel="stylesheet" href="/static/sh.css">
+</head>
+
+<body>
+  <section id="header">
+    <img src="/static/images/maternity-care.png" class="logo" alt="" width="50" height="50">
+    <div onclick = "window.location.href='/main';"> Home </div>
+  </section>
+
+  <!-- Hero Section -->
+  <section id="hero" style="background-image: url('/pics/back.jpg');">
+    <h4>Welcome to the site</h4>
+    <h2>JANANI SEVA</h2>
+    <h1>Navigating through the intricacies of motherhood</h1>
+    <p></p>
+  </section>
+
+  <section class="questionnaire">
+    <h2>Questionnaire (postpartum)</h2>
+    <form>
+        <div>
+            <p class="question-number">Question 1:</p>
+            <label for="q12">It's been a few weeks since you gave birth. How often have you been feeling down, irritable, or crying more than usual?</label><br>
+            <input type="radio" id="q12a" name="q12" value="a">
+            <label for="q12a">Never</label><br>
+            <input type="radio" id="q12b" name="q12" value="b">
+            <label for="q12b">Occasionally (a few times a week)</label><br>
+            <input type="radio" id="q12c" name="q12" value="c">
+            <label for="q12c">Frequently (most days of the week)</label><br>
+            <input type="radio" id="q12d" name="q12" value="d">
+            <label for="q12d">All the time</label><br>
+            </div>
+            
+            <div>
+            <p class="question-number">Question 2:</p>
+            <label for="q13">Taking care of a newborn can be overwhelming. How often do you feel anxious or worried about your ability to handle things?</label><br>
+            <input type="radio" id="q13a" name="q13" value="a">
+            <label for="q13a">Never</label><br>
+            <input type="radio" id="q13b" name="q13" value="b">
+            <link for="q13b">Rarely (once or twice a week)</label><br>
+            <input type="radio" id="q13c" name="q13" value="c">
+            <label for="q13c">Sometimes (several times a week)</label><br>
+            <input type="radio" id="q13d" name="q13" value="d">
+            <label for="q13d">Most of the time (every day or almost every day)</label><br>
+            </div>
+            
+            <div>
+            <p class="question-number">Question 3:</p>
+            <label for="q14">Have you experienced any thoughts of harming yourself or the baby?</label><br>
+            <input type="radio" id="q14a" name="q14" value="a">
+            <label for="q14a">No</label><br>
+            <input type="radio" id="q14b" name="q14" value="b">
+            <label for="q14b">Yes, but I would never act on them</label><br>
+            <label for="q14c" style="color: red;">If you answered yes to question 14b, please reach out for help immediately. Contact a crisis hotline or mental health professional.</label><br>
+            </div>
+            
+            <div>
+            <p class="question-number">Question 4:</p>
+            <label for="q15">How has your sleep been since giving birth?</label><br>
+            <input type="radio" id="q15a" name="q15" value="a">
+            <label for="q15a">Getting a good night's sleep most nights</label><br>
+            <input type="radio" id="q15b" name="q15" value="b">
+            <label for="q15b">Getting some interrupted sleep, but managing okay</label><br>
+            <input type="radio" id="q15c" name="q15" value="c">
+            <label for="q15c">Having significant trouble sleeping most nights</label><br>
+            </div>
+      
+      <!-- Add similar HTML for questions 4 to 10 -->
+      
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+</body>
+
+</html>
