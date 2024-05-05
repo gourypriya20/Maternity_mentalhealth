@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questionnaire Form</title>
+  <link rel="stylesheet" href="/static/sh.css">
+</head>
+
+
+<body>
+
+  <!-- Header Section -->
+  <section id="header">
+    <img src="/static/images/maternity-care.png" class="logo" alt="Janani Seva Logo" width="50" height="50">
+    <div onclick = "window.location.href='/main';"> Home </div>
+    <!-- Add navigation menu if needed -->
+  </section>
+
+  <!-- Hero Section -->
+  <section id="hero" style="background-image: url('/pics/back.jpg');">
+    <h4>Welcome to the site</h4>
+    <h2>JANANI SEVA</h2>
+    <h1>Navigating through the intricacies of motherhood</h1>
+    <p></p>
+  </section>
+
+  <section class="questionnaire">
+    <h2>Questionnaire (prepartum)</h2>
+    <form>
+      <div>
+        <p class="question-number">Question 1:</p>
+        <label for="q1">In the past few weeks, how often have you felt overwhelmed by negative emotions like worry or sadness?</label><br>
+        <input type="radio" id="q1a" name="q1" value="a">
+        <label for="q1a">Never</label><br>
+        <input type="radio" id="q1b" name="q1" value="b">
+        <label for="q1b">Rarely (once or twice a week)</label><br>
+        <input type="radio" id="q1c" name="q1" value="c">
+        <label for="q1c">Sometimes (several times a week)</label><br>
+        <input type="radio" id="q1d" name="q1" value="d">
+        <label for="q1d">Most of the time (every day or almost every day)</label><br>
+      </div>
+      
+      <div>
+        <p class="question-number">Question 2:</p>
+        <label for="q2">You're a healthcare provider and a patient mentions feeling tearful most days. How would you best assess her emotional state?</label><br>
+        <input type="radio" id="q2a" name="q2" value="a">
+        <label for="q2a">"Crying is normal during pregnancy, are there any specific triggers?"</label><br>
+        <input type="radio" id="q2b" name="q2" value="b">
+        <label for="q2b">"Let's talk about the baby! What are you most excited about?"</label><br>
+        <input type="radio" id="q2c" name="q2" value="c">
+        <label for="q2c">"Can you tell me more about how often you feel tearful and if there are other emotional changes you've noticed?"</label><br>
+        <input type="radio" id="q2d" name="q2" value="d">
+        <label for="q2d">"Is there a history of depression in your family?"</label><br>
+      </div>
+
+      <div>
+        <p class="question-number">Question 3:</p>
+        <label for="q3">Compared to before you were pregnant, how well are you sleeping these days?</label><br>
+        <input type="radio" id="q3a" name="q3" value="a">
+        <label for="q3a">Much better</label><br>
+        <input type="radio" id="q3b" name="q3" value="b">
+        <label for="q3b">Slightly better</label><br>
+        <input type="radio" id="q3c" name="q3" value="c">
+        <label for="q3c">About the same</label><br>
+        <input type="radio" id="q3d" name="q3" value="d">
+        <label for="q3d">Slightly worse</label><br>
+        <input type="radio" id="q3e" name="q3" value="e">
+        <label for="q3e">Much worse</label><br>
+      </div>
+      
+      <!-- Add similar HTML for questions 4 to 10 -->
+      
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+</body>
+
+</html>
