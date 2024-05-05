@@ -89,6 +89,17 @@ body {
   left: 0;
 }
 
+#header_first {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 80px;
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
 #navbar {
   display: flex;
   align-items: center;
@@ -358,10 +369,6 @@ body {
 #banner h2 span{
   color: #b50a0a; 
 }
-
-
-
-
 
 #banner button:hover{
   background: #088178;
