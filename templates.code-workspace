@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "templates",
+			"path": "../../HACKIFY/templates"
+		},
+		{
+			"name": "Maternity_mentalhealth",
+			"path": "."
+		},
+		{
+			"name": "static",
+			"path": "../../HACKIFY/static"
+		}
+	],
+	"settings": {}
+}
